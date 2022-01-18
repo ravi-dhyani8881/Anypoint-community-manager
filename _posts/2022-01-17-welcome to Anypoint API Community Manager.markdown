@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to Anypoint API Community Manager"
 date:   2022-01-17 17:01:13 +0000
 categories: jekyll update
 ---

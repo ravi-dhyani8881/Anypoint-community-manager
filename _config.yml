@@ -11,15 +11,15 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Minimal Mistakes"
+title                    : "Anypoint API Community Manager"
 title_separator          : "-"
-subtitle                 : "A Jekyll theme"
+subtitle                 : "Build your API with Community Manager"
 name                     : &name "Ravi Dhyani" # &name is a YAML anchor which can be *referenced later
 description              : &description "A flexible Jekyll theme for your blog or site with a minimalist aesthetic."
-url                      : https://mmistakes.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://ravi-dhyani.github.io/Anypoint-community-manager # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/Anypoint-community-manager" # the subpath of your site, e.g. "/blog"
-repository               : "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+repository               : "ravi-dhyani/Anypoint-community-manager"
+teaser                   : "/assets/images/500x300.png" # path of fallback teaser image, e.g. 
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
@@ -72,7 +72,7 @@ baidu_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : &twitter "mmistakes"
+  username               : &twitter "RaviDhyani20"
 facebook:
   username               : &facebook "michaelrose"
   app_id                 :
@@ -84,8 +84,8 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    - "https://twitter.com/mmistakes"
-    - "https://www.facebook.com/michaelrose"
+    - "https://twitter.com/RaviDhyani20"
+    - "https://www.facebook.com/RaviDhyani20"
 
 # Analytics
 analytics:
@@ -97,20 +97,20 @@ analytics:
 
 # Site Author
 author:
-  name             : *name # *name is a YAML reference pointing to the &anchor earlier
-  avatar           : "/assets/images/michael-rose.jpg"
-  bio              : "Just another *boring*, *tattooed*, *time traveling*, *designer*."
-  location         : "Buffalo, NY"
+  name             : *Ravi # *name is a YAML reference pointing to the &anchor earlier
+  avatar           : "/assets/images/Ravi-Dhyani.jpg"
+  bio              : "Technical Architect || Certified Mulesoft Developer || MuleSoft Mentor || Free Lancer"
+  location         : "London, UK"
   links:
-    - label: "Made Mistakes"
+    - label: "Anypoint community manager"
       icon: "fas fa-fw fa-link"
-      url: "https://mademistakes.com"
+      url: "https://ravi-dhyani.github.io/Anypoint-community-manager/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/mmistakes"
+      url: "https://twitter.com/RaviDhyani20"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/mmistakes"
+      url: "https://github.com/ravi-dhyani"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/mmistakes"

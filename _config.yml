@@ -99,7 +99,7 @@ analytics:
 author:
   name             : *Ravi # *name is a YAML reference pointing to the &anchor earlier
   avatar           : "/assets/images/Ravi-Dhyani.jpg"
-  bio              : "Technical Architect || Certified Mulesoft Developer || MuleSoft Mentor || Free Lancer"
+  bio              : "Certified Platform Architect || Technical Architect || MuleSoft Mentor || Free Lancer"
   location         : "London, UK"
   links:
     - label: "Anypoint community manager"

@@ -74,7 +74,7 @@
 </script>
 
 
-  <meta name="google-site-verification" content="UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y" />
+  <meta name="google-site-verification" content="soxI3Mg0gQtMBG45BtwzrMO9vpdB52ExOn7EYL8lZYs" />
 
 
 
@@ -108,6 +108,8 @@
 
 <!-- end custom head snippets -->
 
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true});</script>
   </head>
 
   <body class="layout--single">
@@ -132,7 +134,7 @@
         
         <a class="site-title" href="/Anypoint-community-manager/">
           Anypoint API Community Manager
-          <span class="site-subtitle">Build your API with Community Manager</span>
+          <span class="site-subtitle">Build your API Community</span>
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
               <a href="/Anypoint-community-manager/docs/quick-start-guide/">Quick-Start Guide1</a>
@@ -192,9 +194,9 @@
         <table>
   <tbody>
     <tr>
-      <td>Technical Architect</td>
+      <td>Certified Platform Architect</td>
       <td> </td>
-      <td>Certified Mulesoft Developer</td>
+      <td>Technical Architect</td>
       <td> </td>
       <td>MuleSoft Mentor</td>
       <td> </td>
@@ -453,7 +455,7 @@
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
-        <a href="/Anypoint-community-manager/jekyll/ravi/" rel="permalink">ravi
+        <a href="/Anypoint-community-manager/jekyll/ravi-dhyani/" rel="permalink">Exclude Post from Search Index
 </a>
       
     </h2>
@@ -471,59 +473,15 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          less than 1 minute read
+          3 minute read
         
       </span>
     
   </p>
 
 
-    <p class="archive__item-excerpt" itemprop="description">This post should not appear in the search index because it has the following YAML Front Matter:
-
-</p>
-  </article>
-</div>
-
-        
-          
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-      <div class="archive__item-teaser">
-        <img src="/Anypoint-community-manager/assets/images/500x300.png" alt="">
-      </div>
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/Anypoint-community-manager/jekyll/ravi/" rel="permalink">ravi
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-
-    
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
-        
-          less than 1 minute read
-        
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">This post should not appear in the search index because it has the following YAML Front Matter:
+    <p class="archive__item-excerpt" itemprop="description">Example RAML 1.0 API documentation version 1
+http://example.com/{version}
 
 </p>
   </article>
@@ -620,6 +578,51 @@
 </div>
 
         
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/Anypoint-community-manager/assets/images/500x300.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/Anypoint-community-manager/jekyll/gemified-theme-beta/" rel="permalink">Gemified Theme – Beta Release
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          2 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Hot on the heels of Jekyll v3.3.0 is a beta release of Minimal Mistakes… as a gemified theme.
+
+</p>
+  </article>
+</div>
+
+        
       </div>
     </div>
   
@@ -681,86 +684,6 @@
     </div>
 
     
-  <script src="/Anypoint-community-manager/assets/js/main.min.js"></script>
-
-
-<!-- Including InstantSearch.js library and styling -->
-<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch.min.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch.min.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch-theme-algolia.min.css">
-
-<script>
-// Instanciating InstantSearch.js with Algolia credentials
-const search = instantsearch({
-  appId: 'QB6HVGBSBA',
-  apiKey: '9d5014e5bbc77372547bce778dfa5663',
-  indexName: 'minimal_mistakes',
-  searchParameters: {
-    restrictSearchableAttributes: [
-      'title',
-      'content'
-    ]
-  }
-});
-
-const hitTemplate = function(hit) {
-  const url = hit.url;
-  const title = hit._highlightResult.title.value;
-  const content = hit._highlightResult.html.value;
-
-  return `
-    <div class="list__item">
-      <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-        <h2 class="archive__item-title" itemprop="headline"><a href="/Anypoint-community-manager${url}">${title}</a></h2>
-        <div class="archive__item-excerpt" itemprop="description">${content}</div>
-      </article>
-    </div>
-  `;
-}
-
-// Adding searchbar and results widgets
-search.addWidget(
-  instantsearch.widgets.searchBox({
-    container: '.search-searchbar',
-    poweredBy: true,
-    placeholder: 'Enter your search term...'
-  })
-);
-search.addWidget(
-  instantsearch.widgets.hits({
-    container: '.search-hits',
-    templates: {
-      item: hitTemplate,
-      empty: 'No results',
-    }
-  })
-);
-
-// Starting the search only when toggle is clicked
-$(document).ready(function () {
-  $(".search__toggle").on("click", function() {
-    if(!search.started) {
-      search.start();
-    }
-  });
-});
-</script>
-
-
-
-
-
-
-
-
-
-    <style>
-      .google-auto-placed {
-        margin: 2em auto;
-      }
-    </style>
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 
   </body>
 </html>

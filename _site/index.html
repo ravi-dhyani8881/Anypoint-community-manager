@@ -70,7 +70,7 @@
 </script>
 
 
-  <meta name="google-site-verification" content="UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y" />
+  <meta name="google-site-verification" content="soxI3Mg0gQtMBG45BtwzrMO9vpdB52ExOn7EYL8lZYs" />
 
 
 
@@ -104,6 +104,8 @@
 
 <!-- end custom head snippets -->
 
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true});</script>
   </head>
 
   <body class="layout--splash">
@@ -128,7 +130,7 @@
         
         <a class="site-title" href="/Anypoint-community-manager/">
           Anypoint API Community Manager
-          <span class="site-subtitle">Build your API with Community Manager</span>
+          <span class="site-subtitle">Build your API Community</span>
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
               <a href="/Anypoint-community-manager/docs/quick-start-guide/">Quick-Start Guide1</a>
@@ -272,14 +274,14 @@
       <div class="archive__item">
         
           <div class="archive__item-teaser">
-            <img src="/Anypoint-community-manager/assets/images/mm-free-feature.png" alt="100% free" />
+            <img src="/Anypoint-community-manager/assets/images/mm-free-feature.png" alt="Personalized experiences" />
             
           </div>
         
 
         <div class="archive__item-body">
           
-            <h2 class="archive__item-title">100% free</h2>
+            <h2 class="archive__item-title">Personalized experiences</h2>
           
 
           
@@ -359,84 +361,6 @@
     </div>
 
     
-  <script src="/Anypoint-community-manager/assets/js/main.min.js"></script>
-
-
-<!-- Including InstantSearch.js library and styling -->
-<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch.min.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch.min.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch-theme-algolia.min.css">
-
-<script>
-// Instanciating InstantSearch.js with Algolia credentials
-const search = instantsearch({
-  appId: 'QB6HVGBSBA',
-  apiKey: '9d5014e5bbc77372547bce778dfa5663',
-  indexName: 'minimal_mistakes',
-  searchParameters: {
-    restrictSearchableAttributes: [
-      'title',
-      'content'
-    ]
-  }
-});
-
-const hitTemplate = function(hit) {
-  const url = hit.url;
-  const title = hit._highlightResult.title.value;
-  const content = hit._highlightResult.html.value;
-
-  return `
-    <div class="list__item">
-      <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-        <h2 class="archive__item-title" itemprop="headline"><a href="/Anypoint-community-manager${url}">${title}</a></h2>
-        <div class="archive__item-excerpt" itemprop="description">${content}</div>
-      </article>
-    </div>
-  `;
-}
-
-// Adding searchbar and results widgets
-search.addWidget(
-  instantsearch.widgets.searchBox({
-    container: '.search-searchbar',
-    poweredBy: true,
-    placeholder: 'Enter your search term...'
-  })
-);
-search.addWidget(
-  instantsearch.widgets.hits({
-    container: '.search-hits',
-    templates: {
-      item: hitTemplate,
-      empty: 'No results',
-    }
-  })
-);
-
-// Starting the search only when toggle is clicked
-$(document).ready(function () {
-  $(".search__toggle").on("click", function() {
-    if(!search.started) {
-      search.start();
-    }
-  });
-});
-</script>
-
-
-
-
-
-
-
-    <style>
-      .google-auto-placed {
-        margin: 2em auto;
-      }
-    </style>
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 
   </body>
 </html>

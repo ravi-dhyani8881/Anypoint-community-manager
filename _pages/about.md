@@ -19,7 +19,7 @@ toc: true
 I'm a Mulesoft certified technical architect, Mulesoft mentor, passionate blogger, and speaker. I had around 14 years of experience in Application development, integration with Mulesoft and J2EE technology. I'm working as a Senior technical consultant in MuleSoft Professional Services. I worked with many multinational banks and companies to enable their digital enterprise journey with the Anypoint community manager, Mulesoft and Salesforce.
 {% include gallery id="layouts_gallery" caption="Customize your theme." %}
 
-[Setup community manager]({{ "/docs/quick-start-guide/" | relative_url }}){: .btn .btn--success .btn--large}
+[Setup your community manager]({{ "/docs/quick-start-guide/" | relative_url }}){: .btn .btn--success .btn--large}
 
 ## Community manager Features
 
@@ -37,7 +37,7 @@ I'm a Mulesoft certified technical architect, Mulesoft mentor, passionate blogge
 
 | Name                                        | Description                                           |
 | ------------------------------------------- | ----------------------------------------------------- |
-| [Post with Header Image][header-image-post] | A post with a large header image. |
+| [Community Login ][header-image-post] | Login to your community. |
 | [HTML Tags and Formatting Post][html-tags-post] | A variety of common markup showing how the theme styles them. |
 | [Syntax Highlighting Post][syntax-post] | Post displaying highlighted code. |
 | [Post with a Gallery][gallery-post] | A post showing several images wrapped in `<figure>` elements. |

@@ -17,7 +17,7 @@ subtitle                 : "Build your API Community"
 name                     : &name "Ravi Dhyani" # &name is a YAML anchor which can be *referenced later
 description              : &description "A flexible Jekyll theme for your blog or site with a minimalist aesthetic."
 url                      : https://ravi-dhyani.github.io/Anypoint-community-manager # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/Anypoint-community-manager" # the subpath of your site, e.g. "/blog"
+baseurl                  : "/" # the subpath of your site, e.g. "/blog"
 repository               : "ravi-dhyani/Anypoint-community-manager"
 teaser                   : "/assets/images/500x300.png" # path of fallback teaser image, e.g. 
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"

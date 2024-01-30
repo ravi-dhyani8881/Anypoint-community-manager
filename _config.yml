@@ -11,12 +11,12 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Integration Portal"
+title                    : "Schema and data Portal"
 title_separator          : "-"
 subtitle                 : "Build your Integration Portal"
 name                     : &name "Ravi Dhyani" # &name is a YAML anchor which can be *referenced later
-description              : &description "A flexible Jekyll theme for your blog or site with a minimalist aesthetic."
-url                      : https://ravi-dhyani.github.io/Anypoint-community-manager # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : &description "This portal help you to build integration layer for your data."
+url                      : https://ravi-dhyani.github.io/incubator # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/" # the subpath of your site, e.g. "/blog"
 repository               : "ravi-dhyani/incubator"
 teaser                   : "/assets/images/500x300.png" # path of fallback teaser image, e.g. 
